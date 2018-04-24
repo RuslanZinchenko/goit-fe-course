@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+}
+.wrapper1 {
+    width: 960px;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: 0 0 5px;
+}
+.wrapper2 {
+    width: 880px;
+    margin: auto;
+    padding: 40px 0;   
+}
+.Column1 {
+   width: 420px;
+   display: inline-block;
+   vertical-align: top;
+}
+.Column2 {
+    width: 420px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 34px;
+}
+.photo {
+    margin-bottom: 30px;
+}
+h2 {
+    font-size: 14px;
+}
+h3 {
+    margin-top: 20px;
+    text-align: left;
+    font-size: 30px;
+}
+p {
+    margin-top: 30px;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+
+
+
+
+
+
+
+
+

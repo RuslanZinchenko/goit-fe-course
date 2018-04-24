@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+}
+.wrapper {
+    width: 470px;
+    margin: auto;
+    margin-top: 30px;
+    box-shadow: 0 0 5px;
+}
+.Column {
+   width: 420px;
+   margin: auto;
+   padding: 40px 0;
+}
+.photo {
+    margin-bottom: 30px;
+}
+h2 {
+    font-size: 14px;
+}
+h3 {
+    margin-top: 20px;
+    text-align: left;
+    font-size: 30px;
+}
+p {
+    margin-top: 30px;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+
+
+
+
+
+
+
+
+
