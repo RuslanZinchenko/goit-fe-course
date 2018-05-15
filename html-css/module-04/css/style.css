@@ -140,12 +140,12 @@ header {
     background-color: #1abc9c;
 }
 
-.product:hover {
+/* .product:hover {
     max-width: 270px;
     max-height: 322px;
-}
+} */
 
-.item:hover.price {
+.item:hover .price {
     background-color: #7fd9c7;
 }
 
