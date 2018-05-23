@@ -77,6 +77,10 @@ header {
 
 .wrapper-first-middle {
   width: 100vw;
+  background-image: url('../img/large-picture.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .wrapper-first-middle-inn {
