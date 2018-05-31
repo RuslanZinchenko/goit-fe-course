@@ -1,0 +1,52 @@
+.first-wrapper {
+  background-color: #fff;
+}
+
+.container {
+  width: 940px;
+  margin: 0 auto;
+}
+
+.header {
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 120px;
+}
+
+nav {
+  display: flex;
+  position: relative;
+}
+
+.logo {
+  font-family: "Pacifico", sans-serif;
+  font-weight: 400;
+  font-size: 26px;
+  font-style: italic;
+}
+
+.logo a {
+  color: #fed136;
+}
+
+.menu {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 485px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.menu-link {
+  color: #222222;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.menu-item .menu-link:hover {
+  color: #fed136;
+}

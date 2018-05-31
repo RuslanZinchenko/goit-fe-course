@@ -1,0 +1,65 @@
+.services {
+  position: relative;
+  margin: auto;
+}
+
+.head-name-one {
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 10px;
+  color: #000;
+}
+
+.head-name-two {
+  font-family: "Redressed", sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 22px;
+  text-align: center;
+  color: #777777;
+  margin-bottom: 76px;
+}
+
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 119px;
+}
+
+.service-item {
+  width: 280px;
+  text-align: center;
+}
+
+.circle {
+  width: 70px;
+  height: 70px;
+  margin: auto;
+  border: 3px solid rgb(254, 209, 54);
+  border-radius: 50%;
+  background-color: transparent;
+  margin-bottom: 25px;
+}
+
+.service-icon {
+  position: relative;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.service-name {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 19px;
+}
+
+.service-text {
+  font-family: "Redressed", sans-serif;
+  font-size: 18px;
+  color: #777777;
+}
