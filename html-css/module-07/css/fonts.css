@@ -15,11 +15,11 @@
 }
 
 @font-face {
-  font-family: "DroidSerif-Bold";
-  src: url('../fonts/DroidSerif-Bold.woff2') format('woff2'),
-  url('../fonts/DroidSerif-Bold.woff') format('woff');
-  font-weight: 600;
-  /* font-style: italic;  */
+  font-family: "DroidSerif-Italic";
+  src: url('../fonts/DroidSerif-Italic.woff2') format('woff2'),
+  url('../fonts/DroidSerif-Italic.woff') format('woff');
+  font-weight: 300;
+  font-style: italic; 
 }
 
 @font-face {
