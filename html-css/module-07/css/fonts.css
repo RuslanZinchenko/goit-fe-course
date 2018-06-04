@@ -15,7 +15,7 @@
 }
 
 @font-face {
-  font-family: "Droidserif";
+  font-family: "DroidSerif-Italic";
   src: url('../fonts/DroidSerif-Italic.woff2') format('woff2'),
   url('../fonts/DroidSerif-Italic.woff') format('woff');
   font-weight: 300;
