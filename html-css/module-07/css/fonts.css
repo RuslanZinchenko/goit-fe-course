@@ -15,9 +15,9 @@
 }
 
 @font-face {
-  font-family: "DroidSerif-Italic";
-  src: url('../fonts/DroidSerif-Italic.woff2') format('woff2'),
-  url('../fonts/DroidSerif-Italic.woff') format('woff');
+  font-family: "DroidSerif";
+  src: url('../fonts/DroidSerif.woff2') format('woff2'),
+  url('../fonts/DroidSerif.woff') format('woff');
   font-weight: 300;
   font-style: italic; 
 }
