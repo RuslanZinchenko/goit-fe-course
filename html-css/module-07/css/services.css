@@ -14,10 +14,10 @@
 }
 
 .head-name-two {
-  font-family: "Redressed", sans-serif;
+  font-family: "Droidserif", sans-serif;
   font-style: italic;
-  font-weight: 400;
-  font-size: 22px;
+  font-weight: 300;
+  font-size: 16px;
   text-align: center;
   color: #777777;
   margin-bottom: 76px;
@@ -59,7 +59,8 @@
 }
 
 .service-text {
-  font-family: "Redressed", sans-serif;
-  font-size: 18px;
+  font-family: "Roboto-Slab", sans-serif;
+  font-size: 14px;
   color: #777777;
+  line-height: 1.7;
 }

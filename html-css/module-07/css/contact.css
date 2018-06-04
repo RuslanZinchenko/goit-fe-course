@@ -40,13 +40,13 @@
   padding-top: 20px;
 }
 
-.input-txt:valid {
+/* .input-txt:valid {
   outline: 2px solid rgb(4, 197, 4);
 }
 
 .input-txt:invalid {
   outline: 2px solid rgb(172, 4, 4);
-}
+} */
 
 .input-txt::-webkit-input-placeholder {
   font-family: "Montserrat", sans-serif;
