@@ -1,0 +1,65 @@
+.banner {
+    max-width: 20rem;
+    margin: 0 auto;
+}
+
+.title {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 auto;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 1.875rem;
+    margin-top: 1.7rem;
+}
+
+.title2 {
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-size: 1.125rem;
+    max-width: 70%;
+    margin-top: 0.6rem;
+}
+
+.button-top {
+    background: #ff4e50;
+    border: 0;
+    border-radius: 2.5rem;
+    line-height: 2.5rem;
+    margin-bottom: 8.625rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    color: #fff;
+    font-size: 0.875rem;
+    width: 85%;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+@media (min-width: 48rem) {
+
+    .banner {
+        max-width: 35rem;
+    }
+
+    .title {
+        font-size: 3.25rem;
+    }
+
+    .title2 {
+        font-size: 1.6rem;   
+        max-width: 100%;
+        margin-top: 1.2rem;
+    }
+
+    .button-top {
+        width: 42%;
+        margin-top: 2.1rem;
+        margin-bottom: 15rem;
+    }
+
+}

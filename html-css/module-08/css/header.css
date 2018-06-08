@@ -1,0 +1,75 @@
+.header {
+    padding-top: 20rem 0;
+    display: flex;
+    flex-direction: column-reverse;
+    padding-top: 2rem;
+}
+
+.nav {
+    margin-bottom: 7.5rem;
+}
+
+.nav a {
+    color: #fff;  
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.875rem;
+    padding: 0.625rem 1rem 0.5rem 1rem;
+    border: 0.125rem solid transparent;
+    font-weight: 600;
+}
+
+.nav-link:hover {
+    border: 0.125rem solid #fff;
+    border-radius: 2rem;
+}
+
+.nav-link2:hover {
+    border: 0.125rem solid #fff;
+    border-radius: 2rem;
+}
+
+.logo {
+    color: #fff;  
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 1.25rem;
+    letter-spacing: 0.2rem;
+}
+
+@media (min-width: 48rem) {
+
+    .header {
+        display: flex;
+        flex-direction: row;
+        width: 41.875rem;
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+
+    .logo {
+        margin-top: 0.625rem;
+    }
+
+    .nav {
+        display: flex;
+        flex-basis: 30%;
+        justify-content: space-around;
+    }
+    
+}
+
+@media (min-width: 75rem) {
+
+    .header {
+        display: flex;
+        width: 59.375rem;
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+
+    .nav {
+        flex-basis: 20%;
+    }
+
+}

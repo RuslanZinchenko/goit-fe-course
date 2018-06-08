@@ -1,0 +1,184 @@
+.partners {
+    max-width: 20rem;
+    margin: auto;
+    text-align: center;
+}
+
+.section-title {
+    margin: auto;
+    margin-top: 3.8rem;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.375rem;
+    font-weight: 700;
+    color: #333333;
+}
+
+.team {
+    margin-top: 1rem;
+}
+
+.team-item {
+    width: 74%;
+    margin: 0 auto;
+    margin-bottom: 1.875rem;
+}
+
+  .img-box {
+    position: relative;
+    max-width: 7.59375rem;
+    margin: auto;
+    margin-bottom: 1.270625rem;
+}
+
+  .team-pic {
+    position: relative;
+}
+
+  .team-icon {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding: 0.4rem;
+}
+
+  .icon-wrapper {
+    position: absolute;
+    width: 2.3rem;
+    height: 2.3rem;
+    bottom: 0;
+    right: 0;
+    border: 0.25rem solid #fff;
+    border-radius: 50%;
+}
+
+  .tv {
+    background-color: #ff4e50;
+}
+
+  .bottle {
+    background-color: #ffa507;
+}
+
+  .cup {
+    background-color: #1cd7ad;
+}
+
+  .plane {
+    background-color: #4e73db;
+}
+
+.team-title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.873125rem;
+    font-weight: 800;
+    color: #333333;
+    margin-bottom: 1rem;
+}
+
+.text {
+    color: #9c9c9c;
+    font-size: 0.9375rem;
+    font-family: Roboto, sans-serif;
+}
+
+.button-bottom {
+    background: #fff;
+    border: 0.125rem solid #ff4e50;
+    border-radius: 2.5rem;
+    line-height: 2.25rem;
+    width: 17.5rem;
+    margin-bottom: 3.5625rem;
+    cursor: pointer;
+}
+
+.button-bottom:hover {
+    background: #ff4e50;
+    border: 0.125rem solid transparent;
+}
+
+  .button-bottom a {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    color: #ff4e50;
+    font-size: 0.875rem;
+    display: block;
+}
+
+  .button-bottom a:hover {
+    color: #fff;
+}
+
+@media (min-width: 48rem) {
+
+    .partners {
+        max-width: 70rem;
+    }
+
+    .team {
+        display: flex;
+        flex-wrap: wrap;
+        align-content: space-between;
+        height: 33rem;
+        width: 35rem;
+        margin: 0 auto;
+        margin-top: 1.8rem;
+    }
+
+    .team-item {
+        width: 45%;
+        margin: 0 auto;
+        margin-bottom: 3.4rem;
+    }
+
+    .lucas, .bradley {
+        margin-bottom: 0;
+    }
+
+    .team-title {
+        margin-bottom: 0.7rem;
+        font-size: 1rem;
+    }
+
+    .text {
+        font-size: 1rem;   
+    }
+
+    .button-bottom {
+        margin: 2.5rem;
+        width: 13rem;
+    }
+
+}
+
+@media (min-width: 75rem) {
+
+    .team {
+        display: flex;
+        flex-direction: row;
+        align-content: space-between;
+        height: 17rem;
+        width: 60rem;
+        margin: 0 auto;
+        margin-top: 2rem;
+    }
+
+    .team-item {
+        width: 23.5%;
+        margin: 0 auto;
+    }
+
+    .team-title {
+        font-size: 0.9rem;
+    }
+
+    .text {
+        font-size: 0.9rem;
+    }
+
+    .button-bottom {
+        margin-bottom: 4rem;
+        width: 17%;
+    }
+
+}
