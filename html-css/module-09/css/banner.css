@@ -1,0 +1,61 @@
+@media (min-width: 20rem) {
+  
+  .title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    color: #fff;
+    font-size: 1.875rem;
+    text-transform: uppercase;
+    margin-bottom: 1.1875rem;
+  }
+
+  .style {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    color: #fff;
+  }
+
+  .small-title {
+    font-size: 1.125rem;
+    width: 67.5%;
+    margin: auto;
+    margin-bottom: 1.2425rem;
+  }
+
+  .find {
+    background: #ff4e50;
+    border: 0;
+    border-radius: 2.5rem;
+    line-height: 2.5rem;
+    width: 17.375rem;
+    margin-bottom: 8.625rem;
+  }
+
+  .find a {
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    color: #fff;
+    font-size: 0.875rem;
+    width: inherit;
+  }
+
+@media (min-width: 48rem) {
+  
+
+  .title {
+    font-size: 3.25rem;
+    margin-bottom: 2.625rem;
+  }
+
+  .small-title {
+    font-size: 1.5rem;
+    margin-bottom: 2.25rem;
+    width: 100%;
+  }
+
+  .find {
+    max-width: 29.43%;
+    margin-bottom: 14.5625rem;
+  }
+}
