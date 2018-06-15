@@ -11,7 +11,7 @@
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
     font-size: 1.875rem;
-    margin-top: 1.7rem;
+    margin-top: 2.5rem;
 }
 
 .title2 {
@@ -22,7 +22,7 @@
     font-weight: 100;
     font-size: 1.125rem;
     max-width: 70%;
-    margin-top: 0.6rem;
+    margin-top: 1.25rem;
 }
 
 .button-top {
@@ -37,7 +37,7 @@
     font-size: 0.875rem;
     width: 85%;
     cursor: pointer;
-    margin-top: 1rem;
+    margin-top: 1.25rem;
 }
 
 @media (min-width: 48rem) {
@@ -48,6 +48,7 @@
 
     .title {
         font-size: 3.25rem;
+        margin-top: 1rem;
     }
 
     .title2 {

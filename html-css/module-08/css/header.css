@@ -1,4 +1,4 @@
-.wrapper1 {
+.wrapper-top {
     background-image: url(../img/wallpaper.jpg);
     background-repeat: no-repeat;
     background-position: center 0;
@@ -7,11 +7,11 @@
 .header {
     display: flex;
     flex-direction: column-reverse;
-    padding-top: 2rem;
+    padding-top: 2.0625rem;
 }
 
 .nav {
-    margin-bottom: 7.5rem;
+    margin-bottom: 7.75rem;
 }
 
 .nav a {
@@ -47,7 +47,7 @@
     .header {
         display: flex;
         flex-direction: row;
-        width: 41.875rem;
+        width: 43rem;
         justify-content: space-between;
         margin: 0 auto;
     }
