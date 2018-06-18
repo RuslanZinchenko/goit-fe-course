@@ -1,89 +1,76 @@
 @media (min-width: 20rem) {
 
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-
-  .container {
-    min-width: 20rem;
-    max-width: 90rem;
-    margin: 0 auto;
-  } 
-
   .wrapper-top {
-    background-image: url(../img/wallpaper.jpg);
+    background-image: url(../img/banner.jpg);
     background-repeat: no-repeat;
     background-position: center 0;
     background-size: cover;
+    margin-bottom: 4.1875rem;
+    padding-top: 1.25rem;
   }
 
-  .container {
-    min-width: 20rem;
-  }  
-  
-  .header {
-    margin: 2rem 1rem 0 1rem;
+  .nav-list {
+    margin-bottom: 7.2rem; 
   }
 
-  .login {
-    margin-bottom: 7.5rem;
-    
-  }
-
-  .login li {
-    list-style: none;
-  }
-
-  .login a {
+  .nav-list a {
     text-decoration: none;
     color: #fff;
-    font-family: "Montserrat", sans-serif;
-    font-size: 0.875rem;
-    padding: 0.625rem 1rem 0.5rem 1rem;
-    border: 0.125rem solid transparent;
   }
 
-  .login a:hover {
+  .nav-item {
+    color: #fff;
+    font-size: 0.875rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    padding: 0.75rem 1.125rem;
+  }
+
+  .nav-item:hover {
+    color: #fff;
     border: 0.125rem solid #fff;
     border-radius: 2rem;
   }
 
   .logo {
-    text-decoration: none;
-    text-transform: uppercase;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 700;
+    margin-bottom: 2.375rem;
+  }
+
+  .logo-text {
     font-size: 1.25rem;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
     color: #fff;
-    letter-spacing: 0.2rem;
+    letter-spacing: 0.1rem;
   }
 
-  .logo-box a {
+  .logo a {
     text-decoration: none;
     color: #fff;
-  }
-
-  .logo-box {
-    margin-bottom: 2rem;
   }
 
 }
 
 @media (min-width: 48rem) {
+
+  .wrapper-top {
+    padding-top: 2.375rem;
+  }
+
   .header {
-    margin: 2.9375rem 4.1875rem 10.0625rem 3.0625rem;
+    margin-bottom: 9.5rem;
+    line-height: 2.25rem;
+    padding-right: 3.125rem;
+    padding-left: 3.125rem;
   }
 
-  .login {
+  .nav-list {
     margin-bottom: 0;
-    text-align: right;
   }
 
-  .logo-box {
+  .logo {
     margin-bottom: 0;
-    text-align: left;
   }
 
 }

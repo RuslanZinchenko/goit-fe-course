@@ -1,53 +1,46 @@
 @media (min-width: 20rem) {
-  .wrapper-bottom {
-    min-width: 20rem;
-    margin: auto;
+
+   .wrapper-bottom {
+    background-color: #fff;
     text-align: center;
+    margin: auto;
+    min-width: 20rem;
   }
 
-  .meet {
-    margin: auto;
-    margin-top: 4.375rem;
-    margin-bottom: 0.9375rem;
+  .title-bottom {
     font-family: "Montserrat", sans-serif;
-    font-size: 1.375rem;
-    font-weight: 700;
-    color: #333333;
-    max-width: 20rem;
+    margin: auto;
+    font-size: 1.275rem;
+    color: #333;
+    font-weight:700;
+    margin-bottom: 0.875rem;
+    min-width: 20rem;
   }
 
   .partner {
-    max-width: 13.586875rem;
     margin: auto;
+    max-width: 13.586875rem;
     list-style: none;
     justify-content: center;
-    margin-top: 0;
-    margin-bottom: 1.8125rem;
+    margin-bottom: 1.6875rem;
   }
 
-  .img-wrapper {
-    position: relative;
-    max-width: 7.59375rem;
+  .img-box {
+    max-width: 7.625rem;
     margin: auto;
-    margin-bottom: 1.270625rem;
+    position: relative;
+    margin-bottom: 1.25rem;
   }
 
-  .avatar {
+  .picture {
     position: relative;
   }
 
-  .icon {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    padding: 0.4rem;
-  }
-
-  .icon-wrapper {
+  .box-icon {
     position: absolute;
-    width: 2rem;
-    height: 2rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    padding: 0.4rem;
     bottom: 0;
     right: 0;
     border: 0.25rem solid #fff;
@@ -55,76 +48,80 @@
   }
 
   .tv {
-    background-color: #ff4e50;
+    background-color: #FF4E50;
   }
 
-  .alch {
-    background-color: #ffa507;
+  .bottle {
+    background-color: #FFA507;
   }
 
   .cup {
-    background-color: #1cd7ad;
+    background-color: #1CD7AD;
   }
 
   .plane {
-    background-color: #4e73db;
+    background-color: #4E73DB;
   }
 
-  .name {
+  .partner-name {
     font-family: "Montserrat", sans-serif;
-    font-size: 0.873125rem;
-    font-weight: 800;
-    color: #333333;
+    font-size: 0.875rem;
+    color: #333;
+    font-weight: bold;
     margin-bottom: 1rem;
   }
 
   .partner-info {
-    color: #666666;
-    font-size: 0.873125rem;
+    font-family: "Roboto", sans-serif;
+    font-size: 0.875rem;
+    color: #666;
+    font-weight: 300;
   }
 
-  .see-other {
+  .button-box-bottom {
     background: #fff;
     border: 0.125rem solid #ff4e50;
     border-radius: 2.5rem;
     line-height: 2.25rem;
+    margin: auto;
     margin-bottom: 3.541875rem;
     cursor: pointer;
   }
 
-  .see-other:hover {
+  .button-box-bottom:hover {
     background: #ff4e50;
     border: 0.125rem solid transparent;
   }
 
-  .see-other a {
+  .button-text-bottom {
+    display: block;
     text-decoration: none;
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
     color: #ff4e50;
     font-size: 0.875rem;
-    padding: 0.75rem 3.625rem 0.625rem;
+    padding: 0 4.6875rem;
   }
 
-  .see-other a:hover {
+  .button-text-bottom:hover {
     color: #fff;
+    text-decoration: none;
   }
+
+} 
+
+@media(min-width:48rem) {
+
+  .title-bottom {
+    margin-bottom: 1.875rem;
+  }
+
+  .holiday-partners {
+    height: 14.625rem;
+  }
+
+  .button-text-bottom {
+    padding: 0 1.875rem;
+  }
+
 }
-
-@media (min-width: 48rem) {
-
-  .meet {
-    margin-top: 4.5625rem;
-    max-width: 100%;
-    margin-bottom: 2rem;
-  }  
-
-  .see-other {
-    margin-bottom: 2.46875rem;
-  }
-
-  .see-other a{
-    padding: 0.8125rem 1.75rem 0.65625rem;
-  }
-}
-
