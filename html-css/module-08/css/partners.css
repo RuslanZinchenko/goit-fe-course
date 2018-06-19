@@ -6,6 +6,7 @@
     max-width: 20rem;
     margin: auto;
     text-align: center;
+    padding-bottom: 3.5625rem;
 }
 
 .section-title {
@@ -92,7 +93,6 @@
     border-radius: 2.5rem;
     line-height: 2.25rem;
     width: 17.5rem;
-    margin-bottom: 3.5625rem;
     cursor: pointer;
 }
 
@@ -149,7 +149,7 @@
     }
 
     .button-bottom {
-        margin: 2.5rem;
+        margin-top: 2.5rem;
         width: 13rem;
     }
 
@@ -181,7 +181,6 @@
     }
 
     .button-bottom {
-        margin-bottom: 4rem;
         width: 17%;
     }
 
