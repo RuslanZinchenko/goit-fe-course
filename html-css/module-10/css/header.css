@@ -35,17 +35,12 @@
           align-items:center;
 }
 
-/* .header__nav-box {
-
-} */
-
 .header__logo-box--logo {
   font-family: "Montserrat", sans-serif;
   font-size: 1.875rem;
   font-weight: 700;
   text-decoration: none;
   color: #fff;
-  /* padding-bottom: 0.75rem; */
 }
 
 .header__nav {
@@ -59,7 +54,7 @@
           -webkit-box-align: center;
       -ms-flex-align: center;
           align-items:center;
-          padding-top: 10px;
+          padding-top: 0.625rem;
 }
 
 .header__nav--link {
@@ -68,7 +63,7 @@
   text-decoration: none;
   color: #fff;
   text-transform: uppercase;
-  padding-bottom: 10px;
+  padding-bottom: 0.625rem;
 }
 
 .header__nav--link:hover {
@@ -81,20 +76,14 @@
        -o-transition-timing-function: linear;
           transition-timing-function: linear;
   color: #fce38a;
-  /* padding-bottom: 10px; */
-
-  /* box-shadow: 0 3px 0 #f38181; */
-  /* transition-duration: 200ms; */
-  /* transition-timing-function: linear; */
-  /* color: #f38181; */
-  /* padding-bottom: 10px; */
 }
 
 .cart {
   width: 1.125rem;
   height: 1.71875rem;
   fill: #fff;
-  padding-bottom: 0.75rem;
+  padding-top: 0.625rem;
+  padding-bottom: 0.625rem;
 }
 
 .cart:hover {
@@ -105,6 +94,8 @@
   width: 1.125rem;
   height: 1.71875rem;
   fill: #fff;
+  padding-top: 0.625rem;
+  padding-bottom: 0.625rem;
 }
 
 .search:hover {
