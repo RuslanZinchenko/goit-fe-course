@@ -78,26 +78,4 @@
   color: #fce38a;
 }
 
-.cart {
-  width: 1.125rem;
-  height: 1.71875rem;
-  fill: #fff;
-  padding-top: 0.625rem;
-  padding-bottom: 0.625rem;
-}
-
-.cart:hover {
-  fill: #fce38a;
-}
-
-.search {
-  width: 1.125rem;
-  height: 1.71875rem;
-  fill: #fff;
-  padding-top: 0.625rem;
-  padding-bottom: 0.625rem;
-}
-
-.search:hover {
-  fill: #fce38a;
 }
