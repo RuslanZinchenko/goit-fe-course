@@ -78,4 +78,22 @@
   color: #fce38a;
 }
 
+.cart {
+  width: 1.125rem;
+  height: 1rem;
+  fill: #fff;
+}
+
+.cart:hover {
+  fill: #fce38a;
+}
+
+.search {
+  width: 1.125rem;
+  height: 1rem;
+  fill: #fff;
+}
+
+.search:hover {
+  fill: #fce38a;
 }
