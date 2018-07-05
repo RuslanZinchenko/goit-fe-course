@@ -1,0 +1,57 @@
+.banner {
+    text-align: center;
+    padding-bottom: 15rem;
+    }
+    
+.banner__creative {
+    font-family: $font-family-banner;
+    color: $title-color;
+    font-size: 4.5rem;
+    padding-top: 11.25rem;
+    padding-bottom: 2.65625rem;
+}
+
+.banner__welcome {
+    font-family: $font-family;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 9.375rem;
+    color: $title-color;
+    word-wrap: break-word;
+    width: 75%;
+    margin: 0 auto;
+    margin-bottom: 5rem;
+}
+
+.banner__button {
+    background: transparent;
+    border: 0.1875rem solid $title-color;
+    padding: 0.75rem 0;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+
+&:hover {
+    background: $title-color;
+    border: 0.1875rem solid transparent;
+    // -webkit-transition: 200ms;
+    // -o-transition: 200ms;
+    transition: 200ms;
+    // -webkit-transition-timing-function: linear;
+            // -o-transition-timing-function: linear;
+            transition-timing-function: linear;
+}
+}
+
+.banner__button--learn-more {
+    text-decoration: none;
+    font-family: $font-family;
+    text-transform: uppercase;
+    font-size: 0.875rem;
+    color: $title-color;
+    padding: 0.75rem 1.875rem;
+
+&:hover {
+    color: $button-color;
+}
+}

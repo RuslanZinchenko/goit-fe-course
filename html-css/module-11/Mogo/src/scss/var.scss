@@ -1,0 +1,36 @@
+@function rem($px) {
+  $result: $px / 16;
+  @return #{$result}rem;
+}
+@function prc($el, $container){
+  $result: $el / $container * 100%;
+  @return #{$result};
+}
+
+// $titleColor: #333;
+// $textColor: #777;
+$title-color: #fff;
+$hover-color: #fce38a;
+$button-color: #efc788;
+$amazing-color: #333333;
+$amazing-text-color: #999999;
+$background-color: #f38181;
+$team-color: #95e1d3;
+$outline-color: #e5e5e5;
+// $titleFontSize: 1.625rem;
+// $textFontSize: 1rem;
+$font-family: 'Montserrat', sans-serif;
+$font-family-banner: 'Kaushan Script', sans-serif;
+$amazing-family: 'Roboto', sans-serif;
+
+
+@mixin wallpaper {
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+
