@@ -1,5 +1,3 @@
-"use strict";
-
 'use strict';
 
 const passwords = ['qwerty', '111qwe', '123123', 'r4nd0mp4zzw0rd'];
@@ -7,14 +5,12 @@ let attempts = 3;
 let userInput;
 let userPass;
 
-
 while ( userPass !== false || userInput !== null  && attempts !== 0) {
     if ( userInput === null) {
-        alert ('Всего хорошего!');
         break;
     }
     console.log(attempts);
-    userInput = prompt ('Введите пароль');
+    userInput = prompt ('Введите пароль', '');
     attempts -= 1;
     if (userInput !== null) {
         userPass = passwords.includes(userInput);
