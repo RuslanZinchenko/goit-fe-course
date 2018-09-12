@@ -4,13 +4,11 @@ const logins = ["Mango", "robotGoogles", "Poly", "Aj4x1sBozz", "qwerty123"];
 let allLogins = logins;
 
 const isLoginValid = function(login) {
-    const valid =  login.length >= 4 && login.length <=16;
-        return valid;
+    return login.length >= 4 && login.length <=16;
 }
 
 const isLoginUnique = function(allLogins, login) {
-    const unique = allLogins.includes(login);
-        return unique;
+    return allLogins.includes(login);
 }
 
 const addLogin = function(allLogins, login) {
