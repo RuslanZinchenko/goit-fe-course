@@ -95,14 +95,24 @@ const users = [
 ];
 
 
-const getAllSkills = arr => arr
-.reduce((acc, user) => user.skills ? acc.concat(user.skills) : acc, [])
-.sort();
-
+const ownProperty = arr => {
+  const obj = {};
+  arr.forEach(val => {
+  const str = val;
+  obj[str] = true;
+  })
+  return Object.keys(obj); 
+}
+const getAllSkills = arr => {
+  const result = arr
+  .reduce((acc, user) => user.skills ? acc.concat(user.skills) : acc, [])
+  .sort();
+  return ownProperty(result)
+}
 console.log(getAllSkills(users));
 // ======================================================================
 const getUserNamesSortedByFriendsCount = arr => arr
-.sort((a, b) => a.friends.length - b.friends.length)
-.map(user => user.name);
+  .sort((a, b) => a.friends.length - b.friends.length)
+  .map(user => user.name);
 
 console.log(getUserNamesSortedByFriendsCount(users));
