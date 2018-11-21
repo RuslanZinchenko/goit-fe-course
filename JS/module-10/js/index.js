@@ -63,7 +63,7 @@ function getUserById(evt) {
         })
         .then(data => {
             if (data.status > 400) {
-                return (resultID.innerHTML = 'Такого пользователя в списке нет!')
+                return (resultID.insertAdjacentHTML('afterbegin', 'Такого пользователя в списке нет!'));
             } else {
                 showUser(data)
             }
