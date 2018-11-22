@@ -88,6 +88,12 @@ input {
     margin-top: 20px;
 }
 
+.resultID, .resultAdd, .resultRmv, .resultUpd {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+
 .js-submit, .nameAdd, .ageAdd, .btnAdd, .inputRmv, .btnRmv, 
 .inputUpd, .idUpd, .nameUpd, .ageUpd, .btnUpd, .inputID {
     display: block;
