@@ -63,7 +63,7 @@ function getUserById(evt) {
       throw new Error('Err');
     })
     .then(data => {
-      if (data.status > 400) {
+      if (data.status !== 200) {
         resultID.innerHTML = 'Invalid data value';
       } else {
         showUser(data);
