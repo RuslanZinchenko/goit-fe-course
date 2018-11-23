@@ -1,4 +1,4 @@
-'use strict'
+"use strict"
 
 //////////////////////////////get all users/////////////////////////////////////////
 const submitBtn = document.querySelector('.js-submit');
