@@ -1,0 +1,73 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 10px;
+}
+
+.homework {
+    display: flex;
+    flex-direction: row;
+}
+
+form {
+    margin-bottom: 2rem;
+    justify-content: space-around;
+    text-align: center;
+    flex: 1;
+}
+
+button {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 30px;
+    height: max-content;
+    margin: 20px auto;
+    border-radius: 100%;
+    outline-color: transparent;
+}
+
+
+img {
+    width: 200px;
+}
+
+.second {
+    margin-left: -6px;
+}
+
+.ll {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    word-wrap: break-word;
+    flex: 5;
+}
+
+.card {
+    padding-top: 10px;
+    max-width: 30%;
+    text-align: center;
+    margin-bottom: 2rem;
+    box-shadow: 6px 2px 20px #9c9999;
+    border-radius: 100px;
+    height: 400px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    transition-duration: 800ms;
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    margin-bottom: 50px;
+    padding: 0;
+}
