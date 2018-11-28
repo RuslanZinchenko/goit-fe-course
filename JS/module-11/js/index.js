@@ -86,7 +86,7 @@ const laptops = [
 
 document.addEventListener('DOMContentLoaded', clearFilter)
 
-const container = document.querySelector('#container');
+const container = document.querySelector('.container');
 const form = document.querySelector('.js-form');
 const source = document.querySelector('#laptopList').innerHTML.trim();
 const template = Handlebars.compile(source);
@@ -138,3 +138,4 @@ function clearFilter () {
   const markup = template({laptops});
   container.innerHTML = markup;
 }
+
