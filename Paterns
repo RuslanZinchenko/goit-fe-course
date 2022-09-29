@@ -35,3 +35,7 @@ img {
   height: auto;
 }
 -------------------------------------------
+a:hover,
+a:focus {
+  background-color: #ccc;
+}
