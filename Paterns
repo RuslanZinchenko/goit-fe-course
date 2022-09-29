@@ -15,7 +15,11 @@ input[type="radio"].visually-hidden {
 -------------------------------------------
 git config --list
 -------------------------------------------
-Clearfix
+.clearfix::after {
+  display: table;
+  content: "";
+  clear: both;
+}
 -------------------------------------------
 Transform translate
 -------------------------------------------
