@@ -49,3 +49,5 @@ object-fit: cover;
 -------------------------------------------
 <a href="" target="" title="" rel="noopener noreferrer">
 -------------------------------------------
+const isValidInput = userInput !== null && !Number.isNaN(input);
+-------------------------------------------
